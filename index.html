@@ -14,40 +14,47 @@
 </head>
 
 <body>
+<input type="text" id="inputID" />
 
-    <!-- nav with home and about -->
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Travel God</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
+<button id="sbt">Submit</button>
+
+<div id="data"></div>
+<div id="events" class="list-group">
+    <div class="row ">
+        <h4 class="center">Events:</h4><br><br>
+        <div class="col s3 m3">
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">Event title</h4>
+                <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="venue"></p>
+              </a>
         </div>
-    </nav>
-
-
-    <!-- map and search items -->
-    <div class="container">
-        <div id="map">
-            <!-- location name, start date, end date, and a button to search -->
-            <div id="search-params"></div>
+        <div class="col s3 m3">
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">Event title</h4>
+                <p class="list-group-url"></p>
+                <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="venue"></p>
+              </a>
+        </div>
+        <div class="col s3 m3">
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">Event title</h4>
+                <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="venue"></p>
+              </a>
+        </div>
+        <div class="col s3 m3">
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">Event title</h4>
+                <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="venue"></p>
+              </a>
+        </div>
         </div>
     </div>
-
-    <!-- grid of the rest of info (location, up to 7 day weather, events (via ticketmaster), and previously searched buttons) -->
-    <div>
-        <h2>Location</h2>
-        <!-- temp, weather status (cloudy), we may want have icon that relates to weather status -->
-        <div id="weather-stuff"></div>
-        <!-- use ticketmaster to pull event data... need to figure how this will look -->
-        <div id="events"></div>
-        <!-- local storage of prior locations searched (max amt??) -->
-        <div id="Previously-searched"></div>
-        <!-- remove prev search from local store -->
-        <button id="clear"></button>
-    </div>
-
+</div>
+</script>
     <script src="script.js"></script>
 </body>
 
