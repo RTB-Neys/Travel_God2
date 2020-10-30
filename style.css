@@ -7,10 +7,10 @@ body {background-color: #D7d0c8;
 }
 
 #map {
-  height: 91vh;
+  height: 80vh;
   }
 
-
+  
 nav{
   background-color: #34353f;
 }
@@ -20,6 +20,15 @@ nav{
 
 .center {justify-content: center;
 margin-bottom: 50px;
+}
+
+.lobster{font-family: 'Lobster', cursive;}
+
+.card-content{
+word-wrap: break-word;
+}
+.card-title{
+word-wrap: normal;
 }
 
 .pac-card {
@@ -50,21 +59,26 @@ margin-bottom: 50px;
   font-weight: 300;
 }
 
-#pac-input {
-  background-color: #fff;
+#travel-input {
+  background-color: #34353f;
   font-family: Roboto;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 500px;
   margin-left: 12px;
   padding: 0 11px 0 13px;
   text-overflow: ellipsis;
-  width: 400px;
+  width: 300px;
+  color: #ffffff;
+}
+
+#travel-input:focus {
+  color: #ffffff;
 }
 
 #pac-input:focus {
   border-color: #4d90fe;
 }
 
-#container-T {
-  color: #90a4ae blue-grey lighten-2;
+.card {
+  word-wrap: break-word;
 }
