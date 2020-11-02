@@ -177,9 +177,11 @@ console.log(city);
 $("#travel-input").keypress(function (e) {
     if (e.which === 13) {
 
-        var searchedCity = $("#travel-input").val()
+        var searchedCity = $("#travel-input").val();
 
         $(this).attr("city.name");
+
+
 
 
         var getEvents = [];

@@ -1,25 +1,25 @@
-# Travel_God2
+Travel_God
+Table of contents
+General info
+Technologies
+Demo
+Code Example
+General info
+Travel God aims to make the act of seeing whats happening at a given area easier. It centralizes various needs of a trip. In one search, the user can see a map of the area, a 7 day weather forecast, important locations nearby, and events. Once the user searches a city, it is saved to local stoarge and is then displayed as a new button. The button can be clicked to show all the information of that city once again.
 
-Title : Travel God
+Technologies
+Materialize
+jQuery
+Google Maps API
+Ticketmaster API
+Open Weather API
 
-Prob Statement: The tourist industry is booming but the problem is, who knows what to do? where to go? what weather will you face? Our application is a one stop shop and a travel buffs dream. Events, weather and local data to assist with any itinerary.
 
-Discript: Travel god aims to make the act of seeing whats happening at a given area easier.... check out a map of the area, a 7 day weather forcecast , 'important locations', events, and come back to check if updates have been made later (all searches are saved in local storage)
+Code
+https://rtb-neys.github.io/Travel_God2/
 
-APIs: Google Maps, Ticketmaster, Open Weather API 
+Authors and Acknowledgement
+Naysalee Acosta, Francis Roy Balasabas, Isha Khosla, Carl Logerie, Julian Sgarzi, and Anita Dan
 
-$("events").append($(`
-                <div class="col s3 m3">
-                    <div class="card ">
-                        <div class="card-image">
-                            <img src="images/sample-1.jpg">
-                            <span class="card-title blue-grey-text text-darken-4">${eventName}</span>
-                        </div>
-                        <div class="card-content">
-                            <p>Event description</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>`))
+Link to the App
+https://github.com/RTB-Neys/Travel_God2
