@@ -76,7 +76,7 @@ $(document).ready(function () {
     $("#travel-input").keypress(function herFunc (e) {
         if (e.which == 13) {
 
-
+            $("#current").empty();
 
             var userInput = $("#travel-input").val();
 
@@ -85,6 +85,7 @@ $(document).ready(function () {
 
             $.ajax({
                 url: queryURL,
+                
                 method: "GET"
             }).then(function (response) {
                 console.log(response);
